@@ -18,7 +18,7 @@ class StocksViewModel @Inject constructor(
 
     val viewState = MutableLiveData<ViewState>()
 
-    var stocks = liveData {
+    val stocks = liveData {
         emit(Resource.loading())
         emit(useCase.stocks())
     }
