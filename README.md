@@ -11,7 +11,7 @@ Library Used:
 
 Architecture:
 Used MVVM+CLEAN architecture.
-MVVM is helpful configuration changes like device rotation, font and language changes.
+MVVM is helpful for configuration changes like device rotation, font and language changes.
 CLEAN architecture gives domain layer to write business use cases.
 Both together provide layered architecture with Android's configuration handling support.
 
